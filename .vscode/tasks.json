@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build_opg1",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "src/opgave1/*.cpp",
+        "-o",
+        "${workspaceFolder}/bin/opgave1"
+      ],
+      "group": {
+        "kind": "build",
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+    }, {
+      "label": "build_opg2",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "src/opgave2/*.cpp",
+        "-o",
+        "${workspaceFolder}/bin/opgave2"
+      ],
+      "group": {
+        "kind": "build",
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+    }, {
+      "label": "build_opg3",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "src/opgave3/*.cpp",
+        "-o",
+        "${workspaceFolder}/bin/opgave3"
+      ],
+      "group": {
+        "kind": "build",
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+    },
+  ]
+}

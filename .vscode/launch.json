@@ -1,0 +1,69 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Opgave 1",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/opgave1",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+        "MIMode": "gdb",
+        "externalConsole": false
+      },
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "build_opg1",
+    }, {
+      "name": "Opgave 2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/opgave2",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+        "MIMode": "gdb",
+        "externalConsole": false
+      },
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "build_opg2",
+    }, {
+      "name": "Opgave 3",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/opgave3",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+        "MIMode": "gdb",
+        "externalConsole": false
+      },
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "build_opg3",
+    }
+  ]
+}
